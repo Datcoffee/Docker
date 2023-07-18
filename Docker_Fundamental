@@ -1,0 +1,18 @@
+###Kiểm tra cài đặt docker.
+docker version
+docker info
+docker run hello-world
+
+# Khái niệm.
+1. Docker Client: Là cách user tương tác với docker thông qua command trong terminal. Docker sẽ sử dụng API gửi lệnh tới Docker Deamon.
+2. Docker Deamon: Là server Docker, quản lý Containers, Images, Networks, Volume.
+3. Docker Volume: Là cách lưu trữ dữ liệu liên tục cho việc sử dụng và tạo apps.
+4. Docker Registry: Là nơi lưu trữ riêng của Docker Images. Images được push vào registry và client sẽ pull từ registry.
+5. Docker Hub: Là registry lớn nhất của Docker Images(free)
+6. Docker Repository: Tập hợp các Docker Images cùng tên nhưng khác tags.
+7. Docker Networking: Cho phép kết nối container với nhau. có thể trên nhiều host or 1 host.
+8. Docker Compose: Là công cụ cho phép run app với nhiều docker containers 1 cách dễ dàng hơn
+9. Docker Swarm: Để phối hợp triển khai container.
+10. Docker Service: Là các containers trong production.
+
+
